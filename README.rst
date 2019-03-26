@@ -1,2 +1,4 @@
-# workstation-playbook
+workstation-playbook
+====================
+
 Playbook for my workstation

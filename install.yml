@@ -1,0 +1,6 @@
+---
+- name: Install packages
+  hosts: localhost
+  roles:
+    - role: zypper-install
+      tags: zypper-install

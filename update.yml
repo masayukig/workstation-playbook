@@ -1,0 +1,6 @@
+---
+- name: Update all packages
+  hosts: localhost
+  roles:
+    - role: zypper-update
+      tags: zypper-update

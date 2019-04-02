@@ -15,5 +15,6 @@
           'MozillaThunderbird',
           'gcc',
           'make',
+          'npm',
     ]
     state: present

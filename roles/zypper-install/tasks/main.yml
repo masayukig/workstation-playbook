@@ -16,5 +16,7 @@
           'gcc',
           'make',
           'npm',
+          'chromium',
+          'fcitx-mozc',
     ]
     state: present

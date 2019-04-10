@@ -9,6 +9,13 @@
     name: '*'
     state: latest
   become: yes
+- name: Add vscode repo
+  become: yes
+  zypper_repository:
+    name: https://packages.microsoft.com/keys/microsoft.asc
+    repo: https://packages.microsoft.com/yumrepos/vscode
+    auto_import_keys: yes
+    state: present
 - name: Install packages
   become: yes
   zypper:

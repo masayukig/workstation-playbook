@@ -15,6 +15,7 @@
           'MozillaThunderbird',
           'git',
           'gcc',
+          'zsh',
           'make',
           'npm',
           'chromium',

@@ -10,6 +10,7 @@
     state: latest
   become: yes
 - name: Install packages
+  become: yes
   zypper:
     name: ['code',
           'MozillaThunderbird',

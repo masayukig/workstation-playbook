@@ -12,7 +12,7 @@
 - name: Add vscode repo
   become: yes
   zypper_repository:
-    name: https://packages.microsoft.com/keys/microsoft.asc
+    name: Visual Studio Code
     repo: https://packages.microsoft.com/yumrepos/vscode
     auto_import_keys: yes
     disable_gpg_check: no

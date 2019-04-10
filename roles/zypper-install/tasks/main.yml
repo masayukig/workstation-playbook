@@ -13,6 +13,7 @@
   zypper:
     name: ['code',
           'MozillaThunderbird',
+          'git',
           'gcc',
           'make',
           'npm',

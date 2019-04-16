@@ -29,5 +29,6 @@
           'npm',
           'chromium',
           'fcitx-mozc',
+          'vlc',
     ]
     state: present

@@ -33,5 +33,6 @@
           'vlc',
           'calibre',
           'gnome-tweaks',
+          'the_silver_searcher',
     ]
     state: present

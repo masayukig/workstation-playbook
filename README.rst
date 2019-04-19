@@ -1,4 +1,11 @@
 workstation-playbook
 ====================
 
-Playbook for my workstation
+Playbooks for my workstation
+
+Usage
+-----
+
+Like this::
+
+  $ ansible-playbook -l localhost install.yml -K

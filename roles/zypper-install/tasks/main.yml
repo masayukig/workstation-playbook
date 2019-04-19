@@ -30,5 +30,7 @@
           'chromium',
           'fcitx-mozc',
           'bat',
+          'vlc',
+          'calibre',
     ]
     state: present

@@ -32,5 +32,6 @@
           'bat',
           'vlc',
           'calibre',
+          'gnome-tweaks',
     ]
     state: present

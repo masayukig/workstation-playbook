@@ -34,5 +34,6 @@
           'calibre',
           'gnome-tweaks',
           'the_silver_searcher',
+          'nextcloud-client',
     ]
     state: present

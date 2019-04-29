@@ -35,5 +35,6 @@
           'gnome-tweaks',
           'the_silver_searcher',
           'nextcloud-client',
+          'sqlite3',
     ]
     state: present

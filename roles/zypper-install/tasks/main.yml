@@ -36,5 +36,6 @@
           'the_silver_searcher',
           'nextcloud-client',
           'sqlite3',
+          'gcc-c++',
     ]
     state: present

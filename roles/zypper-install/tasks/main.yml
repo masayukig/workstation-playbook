@@ -37,5 +37,6 @@
           'nextcloud-client',
           'sqlite3',
           'gcc-c++',
+          'steam'
     ]
     state: present

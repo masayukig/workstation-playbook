@@ -4,3 +4,5 @@
   roles:
     - role: zypper-install
       tags: zypper-install
+    - role: pip-install
+      tags: pip-install

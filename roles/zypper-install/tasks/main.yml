@@ -41,6 +41,8 @@
           #'http://mirrors.ctan.org/support/texlive/texlive-dummy/openSUSE/texlive-dummy-2019.9999-1.noarch.rpm',
           'autoconf',
           'automake',
+          'libtool',
+          'jq',
     ]
     state: present
 - name: Get texlive from the official site

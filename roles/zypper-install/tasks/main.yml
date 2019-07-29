@@ -1,4 +1,4 @@
-\- name: Refresh all repos
+- name: Refresh all repos
   zypper_repository:
     repo: '*'
     runrefresh: yes
@@ -38,8 +38,9 @@
           'sqlite3',
           'gcc-c++',
           'steam',
-          'http://mirrors.ctan.org/support/texlive/texlive-dummy/openSUSE/texlive-dummy-2019.9999-1.noarch.rpm',
+          #'http://mirrors.ctan.org/support/texlive/texlive-dummy/openSUSE/texlive-dummy-2019.9999-1.noarch.rpm',
           'autoconf',
+          'automake',
     ]
     state: present
 - name: Get texlive from the official site

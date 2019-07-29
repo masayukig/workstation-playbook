@@ -1,4 +1,4 @@
-- name: Refresh all repos
+\- name: Refresh all repos
   zypper_repository:
     repo: '*'
     runrefresh: yes
@@ -37,6 +37,18 @@
           'nextcloud-client',
           'sqlite3',
           'gcc-c++',
+          'steam',
+          'http://mirrors.ctan.org/support/texlive/texlive-dummy/openSUSE/texlive-dummy-2019.9999-1.noarch.rpm',
           'autoconf',
     ]
     state: present
+- name: Get texlive from the official site
+  get_url: url=http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz dest=/tmp/install-tl-unx.tar.gz
+
+- name: Extract texlive installer
+  unarchive: src=/tmp/install-tl-unx.tar.gz dest=/tmp
+
+# See https://texwiki.texjp.org/?Linux#texliveinstall
+# - name: Install texlive
+#   become: yes
+#   shell: ./install-tl -no-gui -repository http://mirror.ctan.org/systems/texlive/tlnet/ chdir=/tmp/install-tl-*

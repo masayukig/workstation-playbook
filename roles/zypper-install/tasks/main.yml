@@ -43,6 +43,7 @@
           'automake',
           'libtool',
           'jq',
+          'go',
     ]
     state: present
 - name: Get texlive from the official site

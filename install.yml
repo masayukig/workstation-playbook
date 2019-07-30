@@ -6,3 +6,5 @@
       tags: zypper-install
     - role: pip-install
       tags: pip-install
+    - role: go-install
+      tags: go-install

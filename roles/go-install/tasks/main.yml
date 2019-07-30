@@ -1,0 +1,3 @@
+- name: Go packages
+  shell: >
+    bash -lc "go get -u github.com/ericchiang/pup";

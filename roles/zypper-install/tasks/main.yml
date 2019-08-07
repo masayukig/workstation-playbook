@@ -44,6 +44,7 @@
           'libtool',
           'jq',
           'go',
+          'whois',
     ]
     state: present
 - name: Get texlive from the official site

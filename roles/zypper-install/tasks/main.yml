@@ -45,6 +45,7 @@
           'jq',
           'go',
           'whois',
+          'gettext-tools',
     ]
     state: present
 - name: Get texlive from the official site
